@@ -14,7 +14,7 @@ http://www.eclipse.org/legal/epl-v10.html
   <parent>
     <groupId>io.takari</groupId>
     <artifactId>takari</artifactId>
-    <version>9</version>
+    <version>14</version>
   </parent>
   <packaging>takari-jar</packaging>
   <artifactId>takari-filemanager</artifactId>
@@ -63,7 +63,6 @@ http://www.eclipse.org/legal/epl-v10.html
       <plugin>
         <groupId>org.sonatype.plugins</groupId>
         <artifactId>sisu-maven-plugin</artifactId>
-        <version>1.1</version>
         <executions>
           <execution>
             <id>generate-index</id>
